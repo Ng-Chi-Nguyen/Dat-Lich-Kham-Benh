@@ -1,0 +1,34 @@
+@import "../../styles/variables";
+.UserManager_thead{
+   background: $common-green;
+   color: #FFF;
+}
+.body_content{
+   padding: 5px 10px;
+}
+.body_content:hover{
+   background: #e1e0e0;
+}
+.btn{
+   padding: 5px 10px;
+   border: 0;
+   i{
+      font-size: 17px;
+   }
+   .col-yel{
+      color: rgb(109, 109, 15);
+   }
+   .co-red{
+      color: $common-red;
+   }
+}
+.btn:focus{
+   outline: 0;
+   box-shadow: none;
+}
+.action{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: -10px;
+}
