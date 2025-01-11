@@ -32,9 +32,9 @@ let postCRUD = async (req, res) => {
 
 let displayGetCRUD = async (req, res) => {
    let data = await CRUDService.getAllUser();
-   console.log("================ GETALLUSER =================")
-   console.log(data)
-   console.log("=================================")
+   // console.log("================ GETALLUSER =================")
+   // console.log(data)
+   // console.log("=================================")
    return res.render("test/displayCRUD.ejs", {
       dataTable: data
    });
